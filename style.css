@@ -1,4 +1,13 @@
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 5px;
+}
+
 .ul {
-    background-color: pink;
-    color: blue;
+    display: table; /* keep the background color wrapped tight */
+    background-color: orange;
+}
+
+#ulpizza {
+    display: table; /* keep the background color wrapped tight */
+    background-color: orange;
 }
