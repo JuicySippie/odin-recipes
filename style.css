@@ -7,7 +7,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: orange;
 }
 
-#ulpizza {
-    display: table; /* keep the background color wrapped tight */
-    background-color: orange;
+.ol {
+    display: table;
+    background-color: pink;
+    color: black;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
