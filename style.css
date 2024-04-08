@@ -1,17 +1,38 @@
+* {
+    box-sizing: border-box;
+    border: 4px rebeccapurple;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    
+}
+
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: 5px;
+    text-align: center;
 }
 
 .ul {
     display: table; /* keep the background color wrapped tight */
     background-color: orange;
+    margin: auto;
+    border: 100px rebeccapurple ;
+    padding: 50px;
 }
 
 .ol {
     display: table;
     background-color: pink;
     color: black;
+    margin: auto;
 }
+
+
 
 body {
     background-repeat: no-repeat;
